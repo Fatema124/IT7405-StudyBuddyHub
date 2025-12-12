@@ -1,0 +1,24 @@
+# Python virtual environments
+venv/
+.venv/
+
+# Django / Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Django migrations cache (optional to ignore, but you can keep them)
+# core/migrations/__pycache__/
+
+# SQLite database (we don't need to track it)
+db.sqlite3
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
